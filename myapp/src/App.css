@@ -1,0 +1,24 @@
+:root{
+    --primary-blue: #a2d2ff;
+}
+
+.logo {
+    width: 260rem;
+
+}
+
+/* menu links */
+nav a.nav-link {
+font-weight: 500;
+letter-spacing: 0.0375rem;
+cursor: pointer;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    color: var(--primary-blue); 
+     
+}

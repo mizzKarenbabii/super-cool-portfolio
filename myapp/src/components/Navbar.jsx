@@ -1,37 +1,33 @@
 import React from "react";
-
-import { FaBars, FaTimes } from 'react-icons';
+// import myLogo from "myapp\src\assets\images\kr logo.png";
+// import { FaBars, FaTimes } from 'react-icons';
 
 const Navbar = () => {
     return (
-        <div className="text w-full h-[80px] flex justify-between items-center px-4 bg-[#219ebc] text-gray-300">
-            {/* menu */}
-            
-                <ul className="hidden md:flex" >
-                <li> About Me</li>
-                <li> Projects</li>
-                <li> Resume</li>
-                <li> Contact </li>
-                <li> Home</li>
-                </ul>
-            
+<nav className="navbar navbar-expand-lg navbar-light bg-primary">
+  <a className="navbar-brand" href="home"><img src="{logo}" alt="logo"  ></img></a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
 
-            {/* hamburger menu */}
-            <div className="hidden">
-                {/* <FaBars /> */}
-            </div>
-
-            <div>
-                <ul >
-                <li> About Me</li>
-                <li> Projects</li>
-                <li> Resume</li>
-                <li> Contact </li>
-                </ul>
-            </div>
-        </div>
-
-    )
+  <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className="navbar-nav ml-auto">
+      <li className="nav-item active">
+        <a className="nav-link" href="Home">Home </a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="aboutme"> About Me</a>
+      </li>
+     <li className="nav-item"> 
+      <a className="nav-link" href="contact"> Contact</a>
+     </li>
+     <li className="nav-item"> 
+      <a className="nav-link" href="resume"> Resume </a>
+     </li>
+    </ul>
+    </div>
+</nav>
+)
 }
 
 export default Navbar
