@@ -22,3 +22,27 @@ nav ul li {
     color: var(--primary-blue); 
      
 }
+
+
+/* header  */
+.header-wrapper {
+    position: relative;
+    background: url("./assets/images/cb479679965428ec22e87e97f810f75f.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+}
+
+.main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    text-align: center;
+    color:#f28482;
+}
+
+.customNav {
+    background-color: #ffc8c8;
+}

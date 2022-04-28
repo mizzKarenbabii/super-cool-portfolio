@@ -1,13 +1,17 @@
+
 import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./components/Header";
+// import PortfolioContainer from "./components/Portfoliocontainer";
 
 
 function App() {
   return (
-    <div>
+    <>
   <Navbar />   
-  <h2> My Super Cool Portfolio </h2>
-     </div>
+  <Header />
+
+     </>
   );
 }
 
