@@ -29,11 +29,7 @@
     font-size: 30px;
 }
 
-/* menu links */
-/* nav a.nav-link {
-    font-weight: 500;
-    letter-spacing: 0.0375rem;
-} */
+
 
 nav ul li {
     text-transform: uppercase;
@@ -87,15 +83,7 @@ nav ul li {
 
 }
 
-/* .main-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #f28482;
-} */
-/* navbarrrr new code */
+
 .customNav {
     background-color: #ffc8c8;
     display: flex;
