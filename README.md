@@ -10,3 +10,7 @@ basic portfolio that showcases my projects, how to contact me, my resume and som
 * javascript 
 * google fonts
 * coolors 
+
+
+## made by 
+* me 
