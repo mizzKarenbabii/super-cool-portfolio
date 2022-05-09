@@ -1,18 +1,6 @@
+import React from "react";
+import PortfolioContainer from "./components/Portfoliocontainer";
 
-import Navbar from "./components/Navbar";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./components/Header";
-// import PortfolioContainer from "./components/Portfoliocontainer";
-
-
-function App() {
-  return (
-    <>
-  <Navbar />   
-  <Header />
-
-     </>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
